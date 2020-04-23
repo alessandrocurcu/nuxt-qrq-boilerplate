@@ -40,6 +40,9 @@
     "node-sass": "^4.13.1",
     "prettier": "^1.19.1",
     "sass-loader": "^8.0.2",
-    "stylelint": "^10.1.0"
+    "stylelint": "^10.1.0",
+    "stylelint-config-prettier": "^8.0.1",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.17.1"
   }
 }
