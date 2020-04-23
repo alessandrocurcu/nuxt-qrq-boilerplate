@@ -24,6 +24,14 @@ module.exports = {
         ignore: ['after-comment'],
         ignoreAtRules: ['else']
       }
+    ],
+    // Allow SCSS and CSS module keywords beginning with `@`
+    'at-rule-no-unknown': [null],
+    'scss/at-rule-no-unknown': [
+      true,
+      {
+        ignoreAtRules: ['tailwind', 'apply', 'responsive', 'media', 'screen']
+      }
     ]
   }
 }
