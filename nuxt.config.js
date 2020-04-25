@@ -42,7 +42,26 @@ export default {
    */
   modules: [
     // Doc: https://buefy.github.io/#/documentation
-    ['nuxt-buefy', { css: false, materialDesignIcons: false }],
+    [
+      'nuxt-buefy',
+      {
+        css: false,
+        materialDesignIcons: false,
+        defaultIconPack: 'fas',
+        defaultIconComponent: 'font-awesome-icon'
+      }
+    ],
+    [
+      'nuxt-fontawesome',
+      {
+        imports: [
+          {
+            set: '@fortawesome/free-solid-svg-icons',
+            icons: ['fas']
+          }
+        ]
+      }
+    ],
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     // Doc: https://github.com/nuxt-community/dotenv-module
