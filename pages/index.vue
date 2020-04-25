@@ -1,15 +1,11 @@
 <template>
-  <section></section>
+  <section>
+    <b-card title="ciao" icon="user" />
+  </section>
 </template>
 
 <script>
-// import Card from '~/components/Card'
-
 export default {
-  name: 'HomePage',
-
-  components: {
-    // Card
-  }
+  name: 'HomePage'
 }
 </script>
