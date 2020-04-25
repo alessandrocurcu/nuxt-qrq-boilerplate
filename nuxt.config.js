@@ -23,7 +23,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: ['@/assets/scss/main.scss'],
   /*
    ** Plugins to load before mounting the App
    */
@@ -42,7 +42,7 @@ export default {
    */
   modules: [
     // Doc: https://buefy.github.io/#/documentation
-    ['nuxt-buefy', { materialDesignIcons: false }],
+    ['nuxt-buefy', { css: false, materialDesignIcons: false }],
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     // Doc: https://github.com/nuxt-community/dotenv-module
