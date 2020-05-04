@@ -23,7 +23,7 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 # Expose local host to external devices
 * Get your IP in the terminal with `ipconfig getifaddr en1`
-* In `paclage.json` update dev script with `HOST=<your ip> nuxt`
+* In `package.json` update dev script with `HOST=<your ip> nuxt`
 
 # Buefy
 ## Customization

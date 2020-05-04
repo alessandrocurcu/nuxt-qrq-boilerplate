@@ -11,10 +11,10 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
-      }
+        content: process.env.npm_package_description || '',
+      },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   /*
    ** Customize the progress-bar color
@@ -35,7 +35,7 @@ export default {
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
     // Doc: https://github.com/nuxt-community/stylelint-module
-    '@nuxtjs/stylelint-module'
+    '@nuxtjs/stylelint-module',
   ],
   /*
    ** Nuxt.js modules
@@ -48,8 +48,8 @@ export default {
         css: false,
         materialDesignIcons: false,
         defaultIconPack: 'fas',
-        defaultIconComponent: 'font-awesome-icon'
-      }
+        defaultIconComponent: 'font-awesome-icon',
+      },
     ],
     [
       'nuxt-fontawesome',
@@ -57,19 +57,19 @@ export default {
         imports: [
           {
             set: '@fortawesome/free-solid-svg-icons',
-            icons: ['fas']
-          }
-        ]
-      }
+            icons: ['fas'],
+          },
+        ],
+      },
     ],
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
-    '@nuxtjs/style-resources'
+    '@nuxtjs/style-resources',
   ],
   styleResources: {
-    scss: ['@assets/scss/variables.scss', '@assets/scss/mixins.scss']
+    scss: ['@assets/scss/variables.scss', '@assets/scss/mixins.scss'],
   },
   /*
    ** Axios module configuration
@@ -84,5 +84,5 @@ export default {
      ** You can extend webpack config here
      */
     // extend(config, ctx) { }
-  }
+  },
 }
