@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <header class="card-header">
-      <p class="card-header-title has-text-grey">
+      <p class="card-header-title has-text-grey prova--2">
         {{ title }}
       </p>
     </header>
@@ -26,13 +26,20 @@ export default {
   props: {
     title: {
       type: String,
-      required: true
+      required: true,
     },
     icon: {
       type: String,
-      required: true
-    }
-  }
+      required: true,
+    },
+  },
 }
 </script>
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.prova {
+  color: red !important;
+  &--2 {
+    color: green !important;
+  }
+}
+</style>
