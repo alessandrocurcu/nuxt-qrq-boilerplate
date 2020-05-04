@@ -21,7 +21,7 @@ function generateData() {
       image,
       from_userId: fromId,
       published: date,
-      status
+      status,
     })
   }
 

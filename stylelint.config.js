@@ -5,11 +5,11 @@ module.exports = {
     'stylelint-config-standard',
     // Override rules that would interfere with Prettier
     // https://github.com/shannonmoeller/stylelint-config-prettier
-    'stylelint-config-prettier'
+    'stylelint-config-prettier',
   ],
   plugins: [
     // Bring in some extra rules for SCSS
-    'stylelint-scss'
+    'stylelint-scss',
   ],
   rules: {
     // we want to have empty script tags in project at least in development for adding styles
@@ -19,8 +19,8 @@ module.exports = {
     'scss/at-rule-no-unknown': [
       true,
       {
-        ignoreAtRules: ['tailwind', 'apply', 'responsive', 'media', 'screen']
-      }
-    ]
-  }
+        ignoreAtRules: ['tailwind', 'apply', 'responsive', 'media', 'screen'],
+      },
+    ],
+  },
 }

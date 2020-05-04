@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <header class="card-header">
-      <p class="card-header-title has-text-grey prova--2">
+      <p class="card-header-title has-text-grey">
         {{ title }}
       </p>
     </header>
@@ -35,11 +35,4 @@ export default {
   },
 }
 </script>
-<style lang="scss" scoped>
-.prova {
-  color: red !important;
-  &--2 {
-    color: green !important;
-  }
-}
-</style>
+<style lang="scss" scoped></style>
