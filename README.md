@@ -1,6 +1,6 @@
 # nuxt-qrq-boilerplate
 
-> My great Nuxt.js project
+> Nuxt.js boilerplate with Buefy and Font Awesome free
 
 ## Build Setup
 
